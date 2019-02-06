@@ -11,17 +11,17 @@ from gtts import gTTS
 import time, random, sys, json, codecs, threading, glob, urllib, urllib2, urllib3, re, ast, os, subprocess, requests, \
     tempfile
 # BOT Utama Giga
-botA = LINETCR.LINE()
+vipro = LINETCR.LINE()
 # vipro.login(qr=True)
-botA.login(token='EBV8sIWM1zX4pQXwxEEd.m0nlwr3lIejc9g+SkTX7Nq.+6ZaOFegvRdbPPTX+I8Egjqy3V6dJv+3l8XY/9Pb2Jk=')
-botA.loginResult()
+vipro.login(token='EBV8sIWM1zX4pQXwxEEd.m0nlwr3lIejc9g+SkTX7Nq.+6ZaOFegvRdbPPTX+I8Egjqy3V6dJv+3l8XY/9Pb2Jk=')
+vipro.loginResult()
 print "Login Success\n\n=====[BOT Utama Sukses Login]====="
 
 # BOT Assists
 # Rascal
-vipro = LINETCR.LINE()
-vipro.login(token='EBM8u75srmLZM6xhXPB0.3d42KOlbgsZsVfGMQJWeya.m9pSanVn0wTOD8uaubTePr347mW5cNk+orx0TfYH3i4=')
-vipro.loginResult()
+botA = LINETCR.LINE()
+botA.login(token='EBM8u75srmLZM6xhXPB0.3d42KOlbgsZsVfGMQJWeya.m9pSanVn0wTOD8uaubTePr347mW5cNk+orx0TfYH3i4=')
+botA.loginResult()
 # Yudha
 botB = LINETCR.LINE()
 botB.login(token='EBMzn6MhrrCM3C9occJb.5ehVKqqm/AusaYPZbWSzkW.xMd/WrWha+gu0euBbDbXTz/qBcKe6JSflRbL0J5GApc=')
